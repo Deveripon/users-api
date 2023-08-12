@@ -1,0 +1,15 @@
+{
+  "name": "user-rest-api",
+  "version": "1.0.0",
+  "description": "\"This a REST API for User\"",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 5050"
+  },
+  "author": "devripon",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  },
+  "devDependencies": {}
+}
